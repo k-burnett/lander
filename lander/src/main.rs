@@ -38,7 +38,7 @@ fn main() {
     let cli = Cli::parse();
 
     if cli.default {
-        app::run("127.0.0.1", &0b101110111000u16); // localhost:3000
+        app::run("0.0.0.0", &0b101110111000u16); // localhost:3000
     }
      // You can check for the existence of subcommands, and if found use their
     // matches just as you would the top level cmd
