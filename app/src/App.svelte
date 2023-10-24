@@ -3,6 +3,8 @@
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
   import Dashboard from './lib/Dashboard.svelte';
+  import ConfigButton from './lib/ConfigButton.svelte';
+  import ConfigPopup from './lib/ConfigPopup.svelte';
 </script>
 
 <main>
@@ -32,6 +34,12 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p>
+  <ConfigPopup />
+  <div class="footer">
+    <ConfigButton />
+    <br />
+    <span>Karsen Burnett</span>
+  </div>
 </main>
 
 <style>
