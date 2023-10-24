@@ -5,9 +5,13 @@
   import Dashboard from './lib/Dashboard.svelte';
   import ConfigButton from './lib/ConfigButton.svelte';
   import ConfigPopup from './lib/ConfigPopup.svelte';
+  import Date from './lib/Date.svelte';
 </script>
 
 <main>
+    <div id="date-container">
+        <Date />
+    </div>
   <div id="board">
 
     <Dashboard />
